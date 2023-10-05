@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Existing styles */
+  
+  .categories {
+    padding: 40px 0;
+  }
+  
+  .categories table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .categories th, .categories td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .categories th {
+    background-color: #87ceeb;
+    color: white;
+  }
+  
+  .categories tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Rest of the CSS remains the same */
+  header {
+    background-color: #87ceeb;
+    color: white;
+     padding: 10px 0; 
+    border-bottom: 1px solid #ddd;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #f9f9f9;
+  }
+  

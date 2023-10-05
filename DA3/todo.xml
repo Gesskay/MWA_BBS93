@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="todo.xsl"?>
+<todo-list>
+    <title>My To-Do List</title>
+    <tasks>
+        <task>
+            <description>Task 1: Work on project report</description>
+            <type>Work</type>
+            <timing>Today, 3:00 PM</timing>
+            <deadline>Tomorrow</deadline>
+            <completed>false</completed>
+        </task>
+        <task>
+            <description>Task 2: Grocery shopping</description>
+            <type>Personal</type>
+            <timing>Tomorrow, 10:00 AM</timing>
+            <deadline>None</deadline>
+            <completed>true</completed>
+        </task>
+        <task>
+            <description>Task 3: Call Mom</description>
+            <type>Personal</type>
+            <timing>Today, 6:30 PM</timing>
+            <deadline>None</deadline>
+            <completed>false</completed>
+        </task>
+        <task>
+            <description>Task 4: Prepare presentation</description>
+            <type>Work</type>
+            <timing>Thursday, 9:00 AM</timing>
+            <deadline>Friday</deadline>
+            <completed>false</completed>
+        </task>
+    </tasks>
+</todo-list>
